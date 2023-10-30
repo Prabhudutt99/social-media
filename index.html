@@ -1,0 +1,201 @@
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .header {
+            background-color: darkblue;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        .login-btn {
+            width: 80px;
+            height: 30px;
+            color: white;
+            background-color: darkblue;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            align-self: flex-end;
+            margin-right: 20px;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .search input {
+            width: 300px;
+            height: 30px;
+            border-radius: 15px;
+            border: none;
+            padding-left: 15px;
+        }
+
+        .search button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: pink;
+            margin-left: 10px;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .nav span {
+            color: pink;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .nav a {
+            color: pink;
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 20px;
+        }
+
+        .main {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .sidebar {
+            width: 25%;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+        }
+
+        .sidebar li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .sidebar li img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .sidebar li span {
+           font-size: 18px;
+           color: #050505;
+           font-weight: bold;
+        }
+
+        .content {
+           width: 50%;
+           margin-left: 10px;
+           margin-right: 10px;
+           border: solid 1px #dddfe2;
+           background-color: #ffffff;
+           padding: 20px;
+        }
+
+        .content h3 {
+           font-size: 24px;
+           color: #050505;
+           font-weight: bold;
+        }
+
+        .content p {
+           font-size: 18px;
+           color: #65676b;
+        }
+        
+        .footer{
+            width:100%;
+            background-color: darkblue;
+            color: white;
+            text-align: right;
+            position: fixed;
+            bottom: 0;
+            padding: 20px;
+        }
+
+        .footer p{
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <div class="logo">facebook</div>
+          <div class="search">
+              <input type="text" placeholder="Search facebook">
+              <button><img src="search.png"></button>
+          </div>
+          <div class="nav">
+              <img src="profile.jpg">
+              <span>Prabhudutt Bisoi</span>
+              <a href="#">Home</a>
+              <a href="#">Create</a>
+              <a href="#">Notifications</a>
+              <a href="#">Messages</a>
+              <a href="#">Account</a>
+          </div>
+          <button class="login-btn" onclick="window.open('defensiveknownexpertise.prabhudutt2004.repl.co')">Login</button>
+      </div>
+      <div class="main">
+          <div class="sidebar">
+              <ul>
+                  <li><img src="friends.png"><span>Friends</span></li>
+                  <li><img src="groups.png"><span>Groups</span></li>
+                  <li><img src="marketplace.png"><span>Marketplace</span></li>
+                  <li><img src="watch.png"><span>Watch</span></li>
+                  <li><img src="events.png"><span>Events</span></li>
+                  <li><img src="memories.png"><span>Memories</span></li>
+                  <li><img src="saved.png"><span>Saved</span></li>
+                  <li><img src="pages.png"><span>Pages</span></li>
+                  <li><img src="jobs.png"><span>Jobs</span></li>
+              </ul>
+          </div>
+          <div class="content">
+              <h3>Create Post</h3>
+              <p>What's on your mind, Prabhudutt?</p>
+          </div>
+      </div>
+    </div>
+    <div class="footer">
+     <p>Created by Prabhudutt Bisoi</p>
+     <p>All rights reserved</p>
+    </div>
+</body>
+</html>
